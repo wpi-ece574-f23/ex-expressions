@@ -1,5 +1,5 @@
-set_db init_lib_search_path  /opt/skywater/libraries/sky130_fd_sc_hd/latest/timing
-read_libs sky130_fd_sc_hd__ss_100C_1v60.lib
+set_db init_lib_search_path /opt/cadence/libraries/gsclib045_all_v4.7/gsclib045/timing/ 
+read_libs slow_vdd1v0_basicCells.lib
 
 set_db syn_generic_effort medium
 set_db syn_map_effort medium
